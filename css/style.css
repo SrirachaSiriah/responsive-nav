@@ -1,7 +1,29 @@
-.intro-image {
-  width: 100%; }
+.intro-image:nth-child(0) {
+  width: 100%;
+  opacity: 0.5; }
 
-.para {
+.intro-image:nth-child(1) {
+  width: 100%;
+  opacity: 0.7; }
+
+.intro-image:nth-child(2) {
+  width: 100%;
+  opacity: 0.9; }
+
+.intro-image:hover {
+  opacity: 1.0; }
+
+.read-more-btn, .close-btn {
+  width: 100%;
+  height: 40px;
+  background: pink;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  display: block;
+  margin: 20px auto; }
+
+.para11, .para22, .para32 {
   line-height: 22px;
   letter-spacing: 1.2px;
   width: 60%;
@@ -119,13 +141,17 @@ body {
 
   .banner-text {
     font-size: 80px;
-    color: maroon;
-    text-align: center;
+    color: rgba(255, 0, 0, 0.5);
     margin-top: 20px;
-    height: 100px;
-    width: 70%;
-    margin: auto;
-    display: block; }
+    margin-left: -100px;
+    height: 750px;
+    width: 30%;
+    display: block;
+    writing-mode: vertical-rl; }
+
+  .banner-text:hover {
+    opacity: 1.0;
+    color: rgba(255, 0, 0, 0.5); }
 
   .col-4 {
     width: 33%;
